@@ -44,7 +44,7 @@ const aboutMeItems: ListItemProps[] = [
 
 const beliefsItems: ListItemProps[] = [
   { icon: '👽', text: 'Aliens exist (future UFO research funder)' },
-  { icon: '🧬', text: 'Most <30yo will beat mortality' },
+  { icon: '🧬', text: 'Most <30yo will not die (Select spouse carefully) - it might really be forever ' },
   { icon: '🤖', text: 'Human-AI merger in 50 years' },
   { icon: '⏰', text: 'I will build a TARDIS by 2040' }
 ];
