@@ -1,0 +1,173 @@
+.container {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 60px 24px;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.7;
+  color: #374151;
+  font-size: 16px;
+}
+
+.header {
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.mainTitle {
+  font-size: 3.2em;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #111827;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  font-size: 1.25em;
+  margin-bottom: 0;
+  color: #6b7280;
+  font-weight: 400;
+}
+
+.section {
+  margin-bottom: 48px;
+}
+
+.sectionTitle {
+  font-size: 1.75em;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #111827;
+  letter-spacing: -0.01em;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.listItem {
+  padding: 8px 0;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon {
+  font-size: 1.2em;
+  min-width: 1.2em;
+}
+
+.link {
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.link:hover {
+  border-bottom-color: #3b82f6;
+}
+
+.footer {
+  margin-top: 56px;
+  padding: 32px 0;
+  border-top: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+.footerTitle {
+  font-size: 1.2em;
+  margin-bottom: 16px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.footerText {
+  font-size: 1.1em;
+  margin: 0;
+  color: #6b7280;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container {
+    padding: 40px 16px;
+  }
+  
+  .mainTitle {
+    font-size: 2.5em;
+  }
+  
+  .subtitle {
+    font-size: 1.1em;
+  }
+  
+  .sectionTitle {
+    font-size: 1.5em;
+  }
+  
+  .listItem {
+    font-size: 1em;
+  }
+  
+  .footerTitle {
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 32px 12px;
+  }
+  
+  .mainTitle {
+    font-size: 2em;
+  }
+  
+  .listItem {
+    gap: 8px;
+  }
+}
+
+/* Improve accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .link {
+    transition: none;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .container {
+    color: #d1d5db;
+    background-color: #111827;
+  }
+  
+  .mainTitle,
+  .sectionTitle,
+  .footerTitle {
+    color: #f9fafb;
+  }
+  
+  .subtitle,
+  .footerText {
+    color: #9ca3af;
+  }
+  
+  .footer {
+    border-top-color: #374151;
+  }
+  
+  .link {
+    color: #60a5fa;
+  }
+  
+  .link:hover {
+    border-bottom-color: #60a5fa;
+  }
+} 
