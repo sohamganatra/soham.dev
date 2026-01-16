@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './page.module.css';
 
 // Types for better type safety
@@ -64,6 +65,12 @@ export default function Home() {
           </StyledLink>
           {' '}- Missing link to AGI
         </p>
+
+        <nav className={styles.nav}>
+          <Link href="/blog" className={styles.navLink}>
+            Blog
+          </Link>
+        </nav>
       </header>
 
       <Section title="Some things about me:">
