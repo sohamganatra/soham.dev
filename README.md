@@ -1,21 +1,70 @@
-# Soham
+# soham.dev
 
-Building [Composio.dev](https://composio.dev) - making AI agents work with your apps.
+Personal website for Soham Ganatra — founder of [Composio.dev](https://composio.dev), building the missing link to AGI.
 
-## About
+## Tech Stack
 
-- 🎓 IIT Bombay CS (2013-2017)
-- 🚀 Founder @ Composio
-- 📍 San Francisco
-- 🤖 Into: BCI, robotics, space tech
-- 📺 Anime enthusiast (Lelouch vi Britannia 🤘)
-- ☕ Always down for coffee
+- **Framework**: Next.js 15 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS 4
+- **Analytics**: Vercel Analytics
+- **Font**: Inter
 
-## Wild beliefs
+## Getting Started
 
-- 👽 Aliens exist (future UFO research funder)
-- 🧬 Most <30yo will beat mortality
-- 🤖 Human-AI merger in 50 years
-- ⏰ Building a TARDIS by 2040
+```bash
+# Install dependencies
+npm install
+# or
+bun install
 
-Currently seeking interesting humans to build the future with
+# Run development server
+npm run dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view the site.
+
+## Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start dev server with Turbopack |
+| `npm run build` | Create production build |
+| `npm run start` | Run production server |
+| `npm run lint` | Run ESLint |
+
+## Project Structure
+
+```
+soham.dev/
+├── app/
+│   ├── layout.tsx      # Root layout with metadata & analytics
+│   ├── page.tsx        # Home page component
+│   ├── page.module.css # Page styles
+│   ├── globals.css     # Global styles & Tailwind
+│   └── favicon.ico
+├── public/             # Static assets
+├── next.config.ts      # Next.js config
+├── tsconfig.json       # TypeScript config
+└── package.json
+```
+
+## Features
+
+- Responsive design (mobile-first)
+- Dark mode support
+- SEO optimized with Open Graph tags
+- Vercel Analytics integration
+- Accessible (reduced motion support)
+
+## Deploy
+
+Deploy instantly on [Vercel](https://vercel.com):
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
+
+## License
+
+MIT

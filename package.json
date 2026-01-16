@@ -1,6 +1,8 @@
 {
-  "name": "nextjs",
-  "version": "0.1.0",
+  "name": "soham.dev",
+  "version": "1.0.0",
+  "description": "Personal website for Soham Ganatra",
+  "author": "Soham Ganatra <sohamganatra1@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
