@@ -28,6 +28,27 @@
   font-weight: 400;
 }
 
+.nav {
+  margin-top: 20px;
+}
+
+.navLink {
+  display: inline-block;
+  padding: 8px 20px;
+  color: #6b7280;
+  text-decoration: none;
+  font-size: 0.95em;
+  font-weight: 500;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.navLink:hover {
+  color: #3b82f6;
+  border-color: #3b82f6;
+}
+
 .section {
   margin-bottom: 32px;
 }
@@ -136,7 +157,8 @@
 
 /* Improve accessibility */
 @media (prefers-reduced-motion: reduce) {
-  .link {
+  .link,
+  .navLink {
     transition: none;
   }
 }
@@ -186,6 +208,14 @@
     color: #0ea5e9;
     border-bottom-color: #0ea5e9;
   }
-  
 
+  .navLink {
+    color: #94a3b8;
+    border-color: rgba(51, 65, 85, 0.4);
+  }
+
+  .navLink:hover {
+    color: #38bdf8;
+    border-color: #38bdf8;
+  }
 } 
